@@ -1,0 +1,12 @@
+[package]
+name = "interval_detector"
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+authors = ["Bas Zalmstra <zalmstra.bas@gmail.com>", "Tom Zalmstra <t.zalmstra@gmail.com>"]
+homepage = "https://github.com/baszalmstra/interval_detector"
+
+[dependencies]
+structopt = "0.3.23"
+csv = "1.1"
+serde = { version = "1.0.130", features = ["derive"] }
